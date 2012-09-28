@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = CamstampPrefs;
+		cell = PSLinkCell;
+		detail = "CamstampPrefsListController";
+		icon = "CamstampPrefs.png";
+		isController = 1;
+		label = Camstamp;
+	};
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+			<key>footerText</key>
+			<string>If enabled, a copy of the image will be created and timestamped, preserving the original image. On some devices, this operation may be faster than modifying the original image.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ianp.camstamp</string>
+			<key>key</key>
+			<string>embedTimestamp</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.ianp.camstamp</string>
+			<key>key</key>
+			<string>createSeparatePhoto</string>
+			<key>label</key>
+			<string>Timestamp Copy Only</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Timestamp Options</string>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>timestampColor</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.ianp.camstamp</string>
+			<key>label</key>
+			<string>Timestamp Color</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>Red</string>
+				<string>Blue</string>
+				<string>Dark Gray</string>
+				<string>White</string>
+				<string>Green</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>key</key>
+			<string>timestampFont</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<string>Courier</string>
+			<key>defaults</key>
+			<string>com.ianp.camstamp</string>
+			<key>label</key>
+			<string>Timestamp Font</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>validTitles</key>
+			<array>
+				<string>Courier</string>
+				<string>Helvetica</string>
+				<string>Times</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<string>Courier</string>
+				<string>Helvetica</string>
+				<string>TimesNewRomanPSMT</string>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Camstamp</string>
+</dict>
+</plist>

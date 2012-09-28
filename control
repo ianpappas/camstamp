@@ -1,0 +1,9 @@
+Package: com.ianp.camstamp
+Name: Camstamp
+Depends: mobilesubstrate, preferenceloader
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Embed timestamps in Camera photos
+Maintainer: IanP
+Author: IanP
+Section: Tweaks
