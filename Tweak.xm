@@ -1,9 +1,3 @@
-// %hook AVCaptureStillImageOutput
-// - (void)handlePhotoTakenForRequest:(id)arg1 info:(id)arg2 {
-// 	%log;  %orig;
-// 	NSLog(@"%@", [arg1 iosurfaceCompletionBlock]);
-// }
-// %end
 #include <IOSurface/IOSurface.h>
 
 @class PLCameraSettingsView, PLCameraSettingsViewGroup;
